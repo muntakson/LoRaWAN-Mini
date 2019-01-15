@@ -4,7 +4,7 @@ Arduino compatible LoRaWAN board based on RFM95 module
 ![board_image](https://github.com/LowPowerDesignLab/LoRaWAN-Mini/blob/master/img/lorawan_mini.png)
 
 ## Hardware
-### Setup LoRaWAN-Mini for LoRaWAN
+### Setting up LoRaWAN-Mini for LoRaWAN
 #### Arduino and RFM95 connections for LoRaWAN
   ~ | Arduino | RFM95 | ~
 ------|-----------  | ---------- | -------
@@ -16,3 +16,7 @@ INT0  |  D2         | DIO0 | ~
 ~     |  D7         | DIO1 | Required (close jumper)
 ~     |  D8         | DIO2 | Required (close jumper)
 ~     |  D9         | RESET | Required (close jumper)
+#### List of Library Tested
+| Library Name |
+|--------------|
+| [Arduino-LMIC](https://github.com/matthijskooijman/arduino-lmic) |
