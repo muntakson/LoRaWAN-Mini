@@ -4,7 +4,7 @@ Arduino compatible LoRaWAN board based on RFM95 module
 ![board_image](https://github.com/LowPowerDesignLab/LoRaWAN-Mini/blob/master/img/lorawan_mini.png)
 
 ## Hardware
- sada | Arduino Pin | RFM95 Pin |asda
+   Arduino Pin | RFM95 Pin
 ------|-----------  | ---------- | -------
 MISO  |  D12        | MISO | SPI data out 
 MOSI  |  D11        | MOSI | SPI data in
