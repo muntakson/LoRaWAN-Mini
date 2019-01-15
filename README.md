@@ -4,7 +4,7 @@ Arduino compatible LoRaWAN board based on RFM95 module
 ![board_image](https://github.com/LowPowerDesignLab/LoRaWAN-Mini/blob/master/img/lorawan_mini.png)
 
 ## Hardware
-### Setting up LoRaWAN-Mini for LoRaWAN Applications (LoRa-PHY with LoRaWAN protocol)
+### Setting up LoRaWAN-Mini for LoRaWAN Applications ####(LoRa-PHY with LoRaWAN protocol)
 #### Arduino and RFM95 connections for LoRaWAN
   ~ | Arduino | RFM95 | ~
 ------|-----------  | ---------- | -------
