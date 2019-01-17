@@ -22,7 +22,7 @@ INT0  |  D2         | DIO0 | ~
 |--------------|
 | [Arduino-LMIC](https://github.com/matthijskooijman/arduino-lmic) |
 
-### Setting up LoRaWAN-Mini for non-LoRaWAN Applications (LoRa-PHY without using LoRaWAN protocol)
+### Setting up LoRaWAN-Mini for non-LoRaWAN Applications (LoRa-PHY without LoRaWAN protocol)
 #### Arduino and RFM95 connections for LoRaWAN
   ~ | Arduino | RFM95 | ~
 ------|-----------  | ---------- | -------
@@ -40,3 +40,5 @@ INT0  |  D2         | DIO0 | ~
 |--------------|
 | [RadioHead by AirSpayce](https://github.com/hallard/RadioHead) |
 | [MySensor](https://github.com/mysensors/MySensors) |
+
+#### Power
