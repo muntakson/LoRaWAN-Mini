@@ -26,6 +26,14 @@ INT0  |  D2         | DIO0 | ~
 #### Examples
 ##### Arduino-LMIC 
 * Pin Mapping
+```// Pin mapping - LoRaWAN-Mini 
+const lmic_pinmap lmic_pins = {
+    .nss  = 10,
+    .rxtx = LMIC_UNUSED_PIN,
+    .rst  = 9,
+    .dio  = {2, 7, 8},  // D0, D1, D2
+};
+```
 
 ## Setting up LoRaWAN-Mini for non-LoRaWAN Applications (LoRa-PHY without LoRaWAN protocol)
 ---------------------------------------------------------------------------------------------
