@@ -20,7 +20,7 @@ INT0  |  D2         | DIO0 | ~
 #### List of Library Tested
 | Library Name | Status |
 |--------------|--------|
-| [Arduino-LMIC](https://github.com/matthijskooijman/arduino-lmic) | [x] |
+| [Arduino-LMIC](https://github.com/matthijskooijman/arduino-lmic) | :ballot_box_with_check: |
 
 ### Setting up LoRaWAN-Mini for non-LoRaWAN Applications (LoRa-PHY without LoRaWAN protocol)
 #### Arduino and RFM95 connections for LoRaWAN
