@@ -7,7 +7,9 @@ Low cost arduino compatible MCU board with RFM95 module for LoRaWAN application 
 ## Hardware
 ## Setting up LoRaWAN-Mini for LoRaWAN Applications (LoRa-PHY with LoRaWAN protocol
 -------------------------------------------------------------------------------------
+
 #### Arduino and RFM95 connections for LoRaWAN
+----------------------------------------------
   ~ | Arduino | RFM95 | ~
 ------|-----------  | ---------- | -------
 MISO  |  D12        | MISO | SPI data out 
@@ -18,12 +20,15 @@ INT0  |  D2         | DIO0 | ~
 ~     |  D7         | DIO1 | **Required (close jumper)**
 ~     |  D8         | DIO2 | **Required (close jumper)**
 ~     |  D9         | RESET | **Required (close jumper)**
+
 #### List of Library Tested
+---------------------------
 | LoRaWAN Library | Gateway | Status |
 |:--------------:|:--------:|:--------:|
 | [Arduino-LMIC](https://github.com/matthijskooijman/arduino-lmic) | [IMST iC880A-SPI](https://shop.imst.de/wireless-modules/lora-products/8/ic880a-spi-lorawan-concentrator-868-mhz) | :ballot_box_with_check: |
 
 #### Examples
+-------------
 ##### Arduino-LMIC 
 * Pin Mapping
 ```// Pin mapping - LoRaWAN-Mini 
