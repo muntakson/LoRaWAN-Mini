@@ -36,9 +36,9 @@ INT0  |  D2         | DIO0 | ~
 ~     |  D9         | RESET | **Not Required (open jumper)**
 
 #### List of Library Tested
-| Library Name |
-|--------------|
-| [RadioHead by AirSpayce](https://github.com/hallard/RadioHead) |
-| [MySensor](https://github.com/mysensors/MySensors) |
+| Library Name | Status |
+|--------------|--------|
+| [RadioHead by AirSpayce](https://github.com/hallard/RadioHead) | :black_square_button: |
+| [MySensor](https://github.com/mysensors/MySensors) | :black_square_button: |
 
 #### Power
