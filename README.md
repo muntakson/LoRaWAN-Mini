@@ -18,9 +18,9 @@ INT0  |  D2         | DIO0 | ~
 ~     |  D8         | DIO2 | **Required (close jumper)**
 ~     |  D9         | RESET | **Required (close jumper)**
 #### List of Library Tested
-| Library Name |
-|--------------|
-| [Arduino-LMIC](https://github.com/matthijskooijman/arduino-lmic) |
+| Library Name | Status |
+|--------------|--------|
+| [Arduino-LMIC](https://github.com/matthijskooijman/arduino-lmic) | [x] |
 
 ### Setting up LoRaWAN-Mini for non-LoRaWAN Applications (LoRa-PHY without LoRaWAN protocol)
 #### Arduino and RFM95 connections for LoRaWAN
