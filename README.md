@@ -18,9 +18,9 @@ INT0  |  D2         | DIO0 | ~
 ~     |  D8         | DIO2 | **Required (close jumper)**
 ~     |  D9         | RESET | **Required (close jumper)**
 #### List of Library Tested
-| Library Name | Status |
-|--------------|--------|
-| [Arduino-LMIC](https://github.com/matthijskooijman/arduino-lmic) | :ballot_box_with_check: |
+| LoRaWAN Library | Gateway | Status |
+|--------------|--------|--------|
+| [Arduino-LMIC](https://github.com/matthijskooijman/arduino-lmic) | [IMST iC880A-SPI](https://shop.imst.de/wireless-modules/lora-products/8/ic880a-spi-lorawan-concentrator-868-mhz) | :ballot_box_with_check: |
 
 ### Setting up LoRaWAN-Mini for non-LoRaWAN Applications (LoRa-PHY without LoRaWAN protocol)
 #### Arduino and RFM95 connections for LoRaWAN
