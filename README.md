@@ -6,10 +6,8 @@ Low cost arduino compatible MCU board with RFM95 module for LoRaWAN application 
 
 ## Hardware
 ## Setting up LoRaWAN-Mini for LoRaWAN Applications (LoRa-PHY with LoRaWAN protocol
--------------------------------------------------------------------------------------
 
 #### Arduino and RFM95 connections for LoRaWAN
-----------------------------------------------
   ~ | Arduino | RFM95 | ~
 ------|-----------  | ---------- | -------
 MISO  |  D12        | MISO | SPI data out 
@@ -22,16 +20,14 @@ INT0  |  D2         | DIO0 | ~
 ~     |  D9         | RESET | **Required (close jumper)**
 
 #### List of Library Tested
----------------------------
 | LoRaWAN Library | Gateway | Status |
 |:--------------:|:--------:|:--------:|
 | [Arduino-LMIC](https://github.com/matthijskooijman/arduino-lmic) | [IMST iC880A-SPI](https://shop.imst.de/wireless-modules/lora-products/8/ic880a-spi-lorawan-concentrator-868-mhz) | :ballot_box_with_check: |
 
 #### Examples
--------------
 ##### Arduino-LMIC 
-* Pin Mapping
-```// Pin mapping - LoRaWAN-Mini 
+* Pin Mapping - Replace the default lmic pin map with the following code snippet.  
+```// Pin mapping for LoRaWAN-Mini 
 const lmic_pinmap lmic_pins = {
     .nss  = 10,
     .rxtx = LMIC_UNUSED_PIN,
@@ -61,3 +57,7 @@ INT0  |  D2         | DIO0 | ~
 | [MySensor](https://github.com/mysensors/MySensors) | :black_square_button: |
 
 #### Power
+| Code Description |Current|
+|:-----------------|:-----:|
+| **Board Power without RFM95** - Continous 500ms GPIO toggle and no RFM95 module on board | 3.6 mA @ 3.3V |
+| **Board Power with RFM95** - Continous 500ms GPIO toggle and RFM95 module at 3.3V | 6 mA @ 3.3V |
