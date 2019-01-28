@@ -1,5 +1,5 @@
 # LoRaWAN-Mini
-Low cost arduino compatible board with RFM95 module for LoRaWAN application development.
+Low cost arduino compatible MCU board with RFM95 module for LoRaWAN application development.
 * A very simple board based on Arduino Pro Mini (ATmega328p-3.3v-8MHz)
 * Bootloader same as Arduino Pro Mini (ATmega328p-3.3v-8MHz). Fuse setting - L-fuses=0xFF, H-fuses=0xDA, E-fuses=0x05 
 ![board_image](https://github.com/LowPowerDesignLab/LoRaWAN-Mini/blob/master/img/lorawan_mini.png)
