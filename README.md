@@ -20,7 +20,7 @@ INT0  |  D2         | DIO0 | ~
 ~     |  D9         | RESET | **Required (close jumper)**
 #### List of Library Tested
 | LoRaWAN Library | Gateway | Status |
-|--------------|--------|--------|
+|:--------------:|:--------:|:--------:|
 | [Arduino-LMIC](https://github.com/matthijskooijman/arduino-lmic) | [IMST iC880A-SPI](https://shop.imst.de/wireless-modules/lora-products/8/ic880a-spi-lorawan-concentrator-868-mhz) | :ballot_box_with_check: |
 
 #### Examples
@@ -51,7 +51,7 @@ INT0  |  D2         | DIO0 | ~
 
 #### List of Library Tested
 | Library Name | Status |
-|--------------|--------|
+|:--------------:|:--------:|
 | [RadioHead by AirSpayce](https://github.com/hallard/RadioHead) | :black_square_button: |
 | [MySensor](https://github.com/mysensors/MySensors) | :black_square_button: |
 
