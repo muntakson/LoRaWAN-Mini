@@ -65,3 +65,7 @@ INT0  |  D2         | DIO0 | ~
 | **Board active current with RFM95** - Continous 500ms GPIO toggle and RFM95 module at 3.3V | 6 mA @ 3.3V |
 | **Board Sleep current without RFM95** | TODO |
 | **Board Sleep current with RFM95**  | TODO |
+
+
+### Board Dimension
+![board_dim](https://github.com/LowPowerDesignLab/LoRaWAN-Mini/blob/master/img/lorawan-mini_dim.png)
